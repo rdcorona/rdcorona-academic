@@ -37,6 +37,7 @@ jobs:
           # Necesitarás crear un Personal Access Token (PAT) para esto
           personal_token: ${{ secrets.MY_DEPLOY_TOKEN }}
           external_repository: rdcorona/rdcorona-web
+          publish_branch: main
           publish_dir: ./public
           destination_dir: academic 
           keep_files: true # ¡VITAL! Para que no borre los otros sitios
