@@ -1,0 +1,36 @@
+{
+  "title": "Projects & Software",
+  "icon": "bi bi-kanban",
+  "list": [
+    {
+      "title": "🖥️ TIITBA-GUI (Historical Seismograms Vectorization UI)",
+      "url": "https://github.com/rdcorona/tiitbaV2.0",
+      "description": "Creator and lead developer of Tiitba, an open-source, multi-platform Python UI designed to vectorize, analyze, and correct analog seismograms of historical earthquakes. It integrates Genetic Algorithms for focal mechanism determination."
+    },
+    {
+      "title": "🌐 TIITBA-Web (Legacy Seismogram Vectorizaction Web-Tool)",
+      "url": "https://github.com/rdcorona/tiitba_web",
+      "description": "Web-based version of the TIITBA project, facilitating the digitization and analysis of historical seismic records through a browser interface, enhancing accessibility for the international seismology community."
+    },
+    {
+      "title": "📈 Repeating Large Earthquakes (M≥7.0) along the Mexican Subduction Zone",
+      "url": "#",
+      "description": "Extensive research project comparing waveforms of historical and recent Mexican earthquakes to establish repetition patterns, estimate return periods, and evaluate the Earthquake Gap Hypothesis."
+    },
+    {
+      "title": "🛣️ Seismic Hazard Assessment for the Federal Highway Network",
+      "url": "#",
+      "description": "Consulting project conducting a Probabilistic Assessment of Seismic Hazard (PSHA) to identify current and future regions of greatest danger for Mexico's strategic transportation infrastructure."
+    },
+    {
+      "title": "🌊 Wave Propagation Modeling in Metamaterials",
+      "url": "#",
+      "description": "Collaborative project between UNAM Institute of Engineering and the University of Texas to study seismic wave propagation in metamaterials, aiming to create frequency gaps for advanced seismic engineering."
+    },
+    {
+      "title": "📡 Dynamic Deformations & Seismic Network Installation (CONACYT)",
+      "url": "#",
+      "description": "Participated in project PN-15-639, focusing on calculating dynamic deformations. Included the physical installation and maintenance of a semi-permanent network of Trillium 120 Posthole seismic stations in Zihuatanejo, Guerrero."
+    }
+  ]
+}

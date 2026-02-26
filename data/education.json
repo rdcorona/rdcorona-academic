@@ -1,0 +1,27 @@
+{
+  "title": "Education",
+  "icon": "bi bi-mortarboard",
+  "list": [
+    {
+      "degree": "Ph.D. in Earth Sciences",
+      "college": "Institute of Geophysics, National Autonomous University of Mexico (UNAM)",
+      "dates": "May 2023",
+      "thesis_title": "Large Mexican earthquakes reanalysis from the first half of the 20th century, based on legacy seismic data and using novel analysis methodologies. (Supervisor: Dr. Miguel A. Santoyo)",
+      "thesis_url": "https://tesiunamdocumentos.dgb.unam.mx/ptd2023/marzo/0837376/Index.html"
+    },
+    {
+      "degree": "M.Sc. in Earth Sciences",
+      "college": "National School of Higher Education (ENES) Morelia, National Autonomous University of Mexico (UNAM)",
+      "dates": "Jan 2018",
+      "thesis_title": "Finite source study of the Acambay earthquake on November 19, 1912, based on historical records. (Supervisor: Dr. Miguel A. Santoyo)",
+      "thesis_url": "https://tesiunamdocumentos.dgb.unam.mx/ptd2018/enero/0768855/Index.html"
+    },
+    {
+      "degree": "B.Sc. in Geophysical Engineering",
+      "college": "Faculty of Engineering, National Autonomous University of Mexico (UNAM)",
+      "dates": "Nov 2014",
+      "thesis_title": "2D Electrical Resistivity Tomography for the HAWC project. (Supervisor: M.Sc. Gerardo Cifuentes Nava)",
+      "thesis_url": "https://tesiunamdocumentos.dgb.unam.mx/ptd2014/junio/0714254/Index.html"
+    }
+  ]
+}

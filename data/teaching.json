@@ -1,0 +1,25 @@
+{
+  "title": "Teaching",
+  "icon": "bi bi-journal-text",
+  "list": [
+    {
+      "position": "Professor (Lecturer)",
+      "company": "National School of Earth Sciences & Faculty of Sciences, UNAM",
+      "dates": "2019 - 2022",
+      "details": [
+        "🧭 Applied Geophysics II (National School of Earth Sciences, 2022)",
+        "💻 Earth Science Programming I & II (Faculty of Sciences, 2021-2022)",
+        "🌍 Geodynamics (National School of Earth Sciences, 2022)",
+        "📊 Computational Analysis of Geophysical Data (Faculty of Sciences, 2019)"
+      ]
+    },
+    {
+      "position": "Teaching Assistant",
+      "company": "ENES Morelia, UNAM",
+      "dates": "2018",
+      "details": [
+        "📉 Analysis and Processing of Time Series"
+      ]
+    }
+  ]
+}

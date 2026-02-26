@@ -1,0 +1,50 @@
+{
+  "title": "Experiences",
+  "icon": "bi bi-briefcase",
+  "list": [
+    {
+      "position": "💻 Seismologist-Developer",
+      "company": "National Seismological Service (SSN)",
+      "dates": "Feb 2023 - Jun 2023",
+      "details": [
+        "Modernized and updated seismic source analysis software across multiple programming languages (Python, Fortran, Perl, Bash, C-Shell).",
+        "Automated rapid analysis processes for seismic sources triggered by significant earthquake events.",
+        "Managed real-time seismic databases on UNIX servers using SeisComP."
+      ]
+    },
+    {
+      "position": "🤝 External Seismology Consultant",
+      "company": "Grupo SELOME / Secretariat of Infrastructure, Communications and Transportation (SICT)",
+      "dates": "Jan 2022 - Sep 2024",
+      "details": [
+        "Led the Probabilistic Seismic Hazard Assessment (PSHA) study for Mexico's Federal Highway Network.",
+        "Identified critical regions of current and future seismic risk for strategic transportation infrastructure.",
+        "Performed complex database management and integration using Geographic Information Systems (GIS)."
+      ]
+    },
+    {
+      "position": "🔬 Researcher & Ph.D. Candidate",
+      "company": "Institute of Geophysics, UNAM",
+      "dates": "Jan 2018 - Apr 2023",
+      "details": [
+        "Reanalyzed large historical Mexican earthquakes using legacy seismic data and novel computational methodologies.",
+        "Applied Machine Learning (ML) techniques for the digital processing of analog seismograms.",
+        "Developed and managed waveform databases to study repeating large-magnitude earthquakes (M≥7.0) along the Mexican Subduction Zone.",
+        "Processed seismic time series to calculate dynamic deformations in the Zihuatanejo, Guerrero region.",
+        "Installed and maintained a semi-permanent network of Trillium 120 Posthole seismic stations at Zihuatanejo Airport.",
+        "Simulated seismic wave propagation in metamaterials using the Discrete Wave Number (DWN) method in collaboration with the University of Texas.",
+        "Co-advised undergraduate and master's degree students and delivered Earth Science lectures."
+      ]
+    },
+    {
+      "position": "🎓 Internship Trainee",
+      "company": "Institute of Geophysics, UNAM",
+      "dates": "Jan 2013 - Dec 2013",
+      "details": [
+        "Participated in Research and Development (R&D) projects, enhancing core geophysical research and analytical skills.",
+        "Conducted geophysical surveys and fieldwork operations for data collection.",
+        "Performed seismic data processing and analysis within a collaborative teamwork environment."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+baseURL: "https://www.rdcoronaf.page/academic/"
+languageCode: en-us
+build:
+  writeStats: true
+title: rdcorona-academic
+# Uncomment below to use aafu as hugo theme. See instructions in README.md
+theme: aafu
+
+params:
+  author: Daniel Corona-Fernández
+  description: Academic website for Daniel Corona-Fernández
+  copyright: RDCorona-Fernández, 2026
+  theme:
+    mainTheme: null
+    showAttribute: false
+    singlePage: false
+  accordion:
+    - item: about_me
+      expand: true # only the first `expand: true` will take effect
+    - item: experiences
+    - item: teaching
+    - item: education
+    - item: publications
+    - item: projects
+    - item: workshops
+    - item: skills
+      panel_id: skill-panel
+    - item: hobbies

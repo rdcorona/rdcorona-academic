@@ -1,0 +1,21 @@
+{
+  "title": "Hobbies & Interests",
+  "icon": "bi bi-heart",
+  "list": [
+    {
+      "hobby": "Music Enthusiast: From Rock and Metal to Classical and Celtic rhythms 🎧"
+    },
+    {
+      "hobby": "Fantasy & Fiction: Deeply passionate about LOTR 💍, Star Wars 🌌, and epic sagas"
+    },
+    {
+      "hobby": "Geek Culture: Proud TMNT fan 🐢 and lifelong learner of new Python developments 💻"
+    },
+    {
+      "hobby": "Sports & Fitness: Supporting Pumas MX ⚽ and the Pittsburgh Steelers 🏈, plus regular exercise and cycling 🏋🏽‍♂️🚴🏽‍♂️"
+    },
+    {
+      "hobby": "Daily Essentials: Good books 📖 and high-quality coffee ☕"
+    }
+  ]
+}

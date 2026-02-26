@@ -1,0 +1,170 @@
+{
+  "title": "Publications",
+  "icon": "bi bi-book",
+  "format": ["authors", "title", "journal", "date"],
+  "delimiter": ", ",
+  "types": ["Journal Articles", "Other Publications", "Proceedings"],
+  "list": [
+    {
+      "title": "[Repeating Large Earthquakes along the Mexican Subduction Zone](https://doi.org/10.1785/0220230243)",
+      "authors": "Singh, S.K., **Corona-Fernandez, R.D.**, Santoyo, M.A., and Iglesias, A.",
+      "date": "2023",
+      "journal": "Seismological Research Letters",
+      "type": "Journal Articles"
+    },
+    {
+      "title": "[Editorial workflow of a community-led, all-volunteer scientific journal: lessons from the launch of Seismica](https://doi.org/10.26443/seismica.v2i2.1091)",
+      "authors": "Mark, H., Ragon, T., Funning, G., Hicks, S.P., Rowe, C., Teplitzky, S., Convers, J., Karasözen, E., **Corona-Fernandez, R.D.**, & Fagereng, Å.",
+      "date": "2023",
+      "journal": "Seismica, 2(2)",
+      "type": "Journal Articles"
+    },
+    {
+      "title": "[A Seismological Study of the Michoacán-Colima, Mexico, Earthquake of 19 September 2022 (Mw7.6)](https://doi.org/10.22201/igeof.2954436xe.2023.62.2.1453)",
+      "authors": "Singh, S.K., Iglesias, A., Arroyo, D., Pérez-Campos, X., Mendoza, C., **Corona-Fernández, R.D.**, Rivera, L., Espíndola, V.H., González-Ávila, D., Martínez-López, R., Castro-Artola, O., Santoyo, M.A., and Franco, S.I.",
+      "date": "2023",
+      "journal": "Geofísica Internacional 62-2: 445-465",
+      "type": "Journal Articles"
+    },
+    {
+      "title": "[A Test of the Earthquake Gap Hypothesis in Mexico: the case of the Guerrero Gap](https://doi.org/10.1785/0120220094)",
+      "authors": "Husker, A., Werner, M.J., Bayona, J.A., Santoyo, M., **Corona-Fernandez, R.D.**",
+      "date": "2022",
+      "journal": "Bulletin of the Seismological Society of America",
+      "type": "Journal Articles"
+    },
+    {
+      "title": "[A Source Study of the Mw 7.0 Acapulco, Mexico, Earthquake of 8 September 2021](https://doi.org/10.1785/0220220124)",
+      "authors": "Iglesias, A., Singh, S.K., Castro-Artola, O., Pérez-Campos, X., **Corona-Fernandez, R.D.**, Santoyo, M.A., Espíndola, V.H., Arroyo, D., Franco, S.I.",
+      "date": "2022",
+      "journal": "Seismological Research Letters",
+      "type": "Journal Articles"
+    },
+    {
+      "title": "[Re-examination of the 1928 Parral, Mexico earthquake (M6.3) using a new multiplatform graphical vectorization and correction software for legacy seismic data](https://doi.org/10.1002/gdj3.159)",
+      "authors": "**Corona-Fernandez, R.D.** & Santoyo, M.A.",
+      "date": "2022",
+      "journal": "Geoscience Data Journal, 00, 1-15",
+      "type": "Journal Articles"
+    },
+    {
+      "title": "[An updated and unified earthquake catalog from 1787 to 2018 for seismic hazard assessment studies in Mexico](https://doi.org/10.1038/s41597-019-0234-z)",
+      "authors": "Sawires, R., Santoyo, M.A., Peláez, J.A., **Corona-Fernandez, R.D.**",
+      "date": "2019",
+      "journal": "Scientific Data 6, 241",
+      "type": "Journal Articles"
+    },
+    {
+      "title": "[Is September really \"earthquake month\" in Mexico?](https://doi.org/10.32858/temblor.285)",
+      "authors": "Aguilar-Velázquez, M.J., **Corona-Fernández, R.D.**, Rodríguez-Domínguez, M.Á.",
+      "date": "2022",
+      "journal": "Temblor",
+      "type": "Other Publications"
+    },
+    {
+      "title": "[TIITBA - a graphical interface for historical seismograms, vectorization, analysis, and correction](https://doi.org/10.5281/zenodo.6272823)",
+      "authors": "**Corona-Fernandez, R.D.** & Santoyo, M.A.",
+      "date": "2022",
+      "journal": "Zenodo repository",
+      "type": "Other Publications"
+    },
+    {
+      "title": "A focal mechanism analysis for the 1928 Parral (M=6.3) and Oaxaca (M=7.5) earthquake sequence, Mexico, based on analog smoked paper seismograms",
+      "authors": "**Corona-Fernandez, R.D.**, Singh, S.K., Santoyo, M.A., Iglesias, A.",
+      "date": "2022",
+      "journal": "LACSC-2022, Quito, Ecuador",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Old data for new knowledge: The use of analog seismograms to re-analyze large earthquakes in Mexico during the first half of the 20th century",
+      "authors": "**Corona-Fernandez, R.D.** (Speaker)",
+      "date": "2022",
+      "journal": "Institutional Seminar, Geosciences Center (CEGEO), UNAM",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Is the Acapulco earthquake of 8 September 2021 (Mw 7.0) a repeat of the 11 May 1962 earthquake?",
+      "authors": "**Corona-Fernandez, R.D.**, Singh, S.K., Santoyo, M.A.",
+      "date": "2021",
+      "journal": "UGM Annual Meeting, Mexico",
+      "type": "Proceedings"
+    },
+    {
+      "title": "The 1928 Oaxaca, Mexico large-earthquakes sequence (M6.5-M7.8): preliminary results from the re-analysis of legacy seismograms and seismic bulletins information",
+      "authors": "**Corona-Fernandez, R.D.**, Santoyo, M.A.",
+      "date": "2021",
+      "journal": "37th General Assembly of the European Seismological Commission, Athens",
+      "type": "Proceedings"
+    },
+    {
+      "title": "TIITBA a GUI for digital historical seismograms vectorization, analysis, and corrections: Case study of the 11/1/1928 (M6.3) Parral, Mexico earthquake",
+      "authors": "**Corona-Fernandez, R.D.**, Santoyo, M.A.",
+      "date": "2021",
+      "journal": "Joint Scientific Assembly IAGA-IASPEI, India",
+      "type": "Proceedings"
+    },
+    {
+      "title": "TIITBA: A GUI for historical seismograms vectorization, analysis, and correction",
+      "authors": "**Corona-Fernandez, R.D.**, Santoyo, M.A.",
+      "date": "2020",
+      "journal": "UGM Virtual Annual Meeting, Mexico",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Re-analysis of large historical earthquakes: relocation of the 1928 seismic sequence in Oaxaca, Mexico",
+      "authors": "**Corona-Fernandez, R.D.**, Santoyo, M.A.",
+      "date": "2020",
+      "journal": "UGM Virtual Annual Meeting, Mexico",
+      "type": "Proceedings"
+    },
+    {
+      "title": "A broadband seismological observation network for surface dynamic deformations, northwest of the Guerrero seismic gap: new results",
+      "authors": "Santoyo, M.A., **Corona-Fernandez, R.D.**, Miyazawa, M., Castro Artola, O.A.",
+      "date": "2019",
+      "journal": "UGM Annual Meeting, Puerto Vallarta, Mexico",
+      "type": "Proceedings"
+    },
+    {
+      "title": "TLALOC: A computer interface for analog seismograms analysis, digitization, and correction",
+      "authors": "**Corona-Fernandez, R.D.**, Santoyo, M.A.",
+      "date": "2019",
+      "journal": "IUGG General Assembly, Montreal, Canada",
+      "type": "Proceedings"
+    },
+    {
+      "title": "GUI for historical seismograms digitization and correction",
+      "authors": "**Corona-Fernandez, R.D.**, Santoyo, M.A.",
+      "date": "2018",
+      "journal": "UGM Annual Meeting, Puerto Vallarta, Mexico",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Seismological network for the observation of dynamic rotations and deformations by earthquakes in the Mexican subduction zone: preliminary results",
+      "authors": "Santoyo, M.A., **Corona-Fernandez, R.D.**, Castro Artola, O.A.",
+      "date": "2018",
+      "journal": "UGM Annual Meeting, Puerto Vallarta, Mexico",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Finite source study of the Acambay earthquake on November 19, 1912, based on historical records",
+      "authors": "**Corona-Fernandez, R.D.**, Santoyo, M.A.",
+      "date": "2017",
+      "journal": "UGM Annual Meeting, Puerto Vallarta, Mexico",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Stress transfer in the 3D Mexican subduction zone due to slip events",
+      "authors": "Santoyo, M.A., Kostoglodov, V., **Corona-Fernandez, R.D.**",
+      "date": "2017",
+      "journal": "UGM Annual Meeting, Puerto Vallarta, Mexico",
+      "type": "Proceedings"
+    },
+    {
+      "title": "Analysis of the analog seismograms recorded during November 19, 1912 (m~7.0) Acambay, central Mexico earthquake: towards a finite source inversion",
+      "authors": "**Corona-Fernandez, R.D.**, Santoyo, M.A.",
+      "date": "2017",
+      "journal": "IAGA-IASPEI, Kobe, Japan",
+      "type": "Proceedings"
+    }
+  ]
+}

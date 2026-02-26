@@ -1,0 +1,62 @@
+{
+  "title": "Workshops & Certifications",
+  "icon": "bi bi-award",
+  "list": [
+    {
+      "position": "Advanced Scientific Programming in Python (ASPP) LATAM Workshop",
+      "company": "ASPP Faculty (International Academic & Industry experts)",
+      "dates": "Summer 2023",
+      "details": [
+        "Intensive training in advanced programming techniques and industry-standard best practices specifically tailored for research scientists."
+      ]
+    },
+    {
+      "position": "SpecFem 2D/3D Modeling Workshop",
+      "company": "University of Alaska, Toronto, and South Florida Experts",
+      "dates": "Oct 2022",
+      "details": [
+        "Technical workshop focused on seismic wave propagation modeling and analysis using the SPECFEM software package."
+      ]
+    },
+    {
+      "position": "Moment Tensor Uncertainty Quantification (MTUQ) Workshop",
+      "company": "University of Alaska, Toronto, and South Florida Experts",
+      "dates": "Apr 2022",
+      "details": [
+        "In-depth training on MTUQ inversion code for analyzing earthquake seismograms and determining seismic source parameters."
+      ]
+    },
+    {
+      "position": "Academic Writing & Publishing in English",
+      "company": "National Autonomous University of Mexico (UNAM)",
+      "dates": "Sep 2020",
+      "details": [
+        "Two-week intensive course on scientific manuscript preparation, international journal conventions, and citation styles."
+      ]
+    },
+    {
+      "position": "Remote Online Sessions for Emerging Seismologists (ROSES)",
+      "company": "AGU Seismology Section Summer School",
+      "dates": "Summer 2020",
+      "details": [
+        "11-week comprehensive workshop focused on seismic processing, modeling, and interpretation using Python."
+      ]
+    },
+    {
+      "position": "Scientific Python 3 Workshop",
+      "company": "Scientific Data Processing Program",
+      "dates": "Summer 2018",
+      "details": [
+        "Specialized training in scientific data processing and advanced graphical representation using Python 3."
+      ]
+    },
+    {
+      "position": "Seismic Data Analysis & SEISAN Course",
+      "company": "National Seismological Service (SSN), Mexico",
+      "dates": "Jan 2015",
+      "details": [
+        "Professional certification in hypocentral localization, focal mechanism determination, and magnitude calculation using SEISAN."
+      ]
+    }
+  ]
+}

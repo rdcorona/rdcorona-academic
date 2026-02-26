@@ -1,0 +1,35 @@
+{
+  "title": "Core Skills & Expertise",
+  "panelId": "skill-panel",
+  "icon": "bi bi-list-check",
+  "list": [
+    {
+      "skill": "💻 Scientific Programming & Data Analysis (Python, Bash, Fortran, MATLAB, Machine Learning)",
+      "skillrating": 95
+    },
+    {
+      "skill": "🌋 Seismological Software & Libraries (ObsPy, SEISAN, SAC, SeisComP, R-CRISIS)",
+      "skillrating": 95
+    },
+    {
+      "skill": "🔬 Core Scientific Skills (Source Inversion, Seismic Wave Simulation, Data Processing, PSHA)",
+      "skillrating": 90
+    },
+    {
+      "skill": "🗺️ GIS & Mapping Tools (ArcGIS, QGIS, GMT, PyGMT)",
+      "skillrating": 90
+    },
+    {
+      "skill": "⚙️ Systems & Infrastructure (Linux/Unix Server Admin, Docker, CI/CD pipelines)",
+      "skillrating": 85
+    },
+    {
+      "skill": "✅ Scientific Code QA & Testing (Git, Perforce, Selenium, Squish, Debugging, Agile/JIRA)",
+      "skillrating": 85
+    },
+    {
+      "skill": "🗣️ Leadership & Communication (Team Coordination, Technical Writing, Scientific Communication)",
+      "skillrating": 95
+    }
+  ]
+}

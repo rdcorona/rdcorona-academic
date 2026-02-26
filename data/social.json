@@ -1,0 +1,27 @@
+[
+  {
+    "icon": "bi bi-linkedin",
+    "url": "https://linkedin.com/in/rdcorona/",
+    "title": "LinkedIn"
+  },
+  {
+    "icon": "bi bi-github",
+    "url": "https://github.com/rdcorona",
+    "title": "GitHub"
+  },
+  {
+    "icon": "ai ai-orcid",
+    "url": "https://orcid.org/0000-0002-7280-2470",
+    "title": "ORCID"
+  },
+  {
+    "icon": "ai ai-google-scholar",
+    "url": "https://scholar.google.com/citations?user=jonlGm8AAAAJ&hl=en",
+    "title": "Google Scholar"
+  },
+  {
+    "icon": "ai ai-researchgate",
+    "url": "https://www.researchgate.net/profile/Raul-Corona-Fernandez",
+    "title": "ResearchGate"
+  }
+]
