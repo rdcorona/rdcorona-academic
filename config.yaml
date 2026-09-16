@@ -6,6 +6,21 @@ title: rdcorona-academic
 # Uncomment below to use aafu as hugo theme. See instructions in README.md
 theme: aafu
 
+# Newer Hugo versions (0.158+) default security.exec.allow to
+# ['^(dart-)?sass$', '^go$', '^git$', '^node$', '^postcss$'], which no longer
+# covers the "tailwindcss" binary that css.TailwindCSS shells out to for
+# Tailwind CSS v4 — without this, the build fails with "tailwindcss is not
+# whitelisted in policy security.exec.allow".
+security:
+  exec:
+    allow:
+      - '^(dart-)?sass$'
+      - '^go$'
+      - '^git$'
+      - '^node$'
+      - '^postcss$'
+      - '^tailwindcss$'
+
 params:
   author: Daniel Corona-Fernández
   description: Academic website for Daniel Corona-Fernández
