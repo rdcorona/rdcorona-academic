@@ -1,0 +1,165 @@
+{{ define "main" }}
+<div class="ac-shell">
+  <aside class="ac-rail">
+    <div class="ac-name">{{ .Site.Data.profile.name }}</div>
+    <div class="ac-role">{{ .Site.Data.profile.tagline }}</div>
+    <div class="ac-where">{{ .Site.Data.profile.location }}</div>
+
+    <nav class="ac-links">
+      {{ range .Site.Data.social }}
+      <a href="{{ .url }}" class="social-link"><i class="{{ .icon }}"></i><span>{{ .title }}</span></a>
+      {{ end }}
+    </nav>
+
+    <nav class="ac-nav">
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#workshops">Workshops</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </aside>
+
+  <div class="ac-main">
+
+    <section id="education" class="pro-sec">
+      <h2>{{ .Site.Data.education.title }}</h2>
+      <div class="tl">
+        {{ range .Site.Data.education.list }}
+        <div class="tl-item">
+          <div class="tl-when">{{ .dates }}</div>
+          <div>
+            <div class="tl-role">{{ .degree }}</div>
+            <div class="tl-org">{{ .college }}</div>
+            <ul class="tl-pts">
+              <li>
+                {{ if .thesis_url }}<a href="{{ .thesis_url }}" target="_blank" rel="noopener noreferrer">{{ .thesis_title }}</a>{{ else }}{{ .thesis_title }}{{ end }}
+              </li>
+            </ul>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+
+    <section id="about" class="pro-sec">
+      <h2>{{ .Site.Data.about_me.title }}</h2>
+      <div class="pro-prose">
+        <p>{{ .Site.Data.about_me.description }}</p>
+      </div>
+    </section>
+
+    <section id="publications" class="pro-sec">
+      <h2>{{ .Site.Data.publications.title }}</h2>
+      <div>
+        {{ $journals := where .Site.Data.publications.list "type" "Journal Articles" }}
+        {{ $others := where .Site.Data.publications.list "type" "Other Publications" }}
+        {{ $proceedings := where .Site.Data.publications.list "type" "Proceedings" }}
+
+        <div class="pubs">
+          {{ range $journals }}
+          <div class="pub">
+            <div class="pub-yr">{{ .date }}</div>
+            <div class="pub-body">
+              <div class="pub-title">{{ .title | markdownify }}</div>
+              <div class="pub-meta">{{ .authors | markdownify }} &middot; <em>{{ .journal }}</em></div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+        {{ $extra := add (len $others) (len $proceedings) }}
+        {{ if gt $extra 0 }}
+        <details class="ac-more">
+          <summary><span>Other publications &amp; proceedings</span><span class="ac-more-n">{{ $extra }}</span></summary>
+
+          {{ if $others }}
+          <p class="ac-more-group">Other publications</p>
+          <div class="pubs">
+            {{ range $others }}
+            <div class="pub">
+              <div class="pub-yr">{{ .date }}</div>
+              <div class="pub-body">
+                <div class="pub-title">{{ .title | markdownify }}</div>
+                <div class="pub-meta">{{ .authors | markdownify }} &middot; <em>{{ .journal }}</em></div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{ if $proceedings }}
+          <p class="ac-more-group">Conference proceedings &amp; talks</p>
+          <div class="pubs">
+            {{ range $proceedings }}
+            <div class="pub">
+              <div class="pub-yr">{{ .date }}</div>
+              <div class="pub-body">
+                <div class="pub-title">{{ .title | markdownify }}</div>
+                <div class="pub-meta">{{ .authors | markdownify }} &middot; <em>{{ .journal }}</em></div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          {{ end }}
+        </details>
+        {{ end }}
+      </div>
+    </section>
+
+    {{ partial "tl-section.html" (dict "id" "experience" "heading" .Site.Data.experiences.title "items" .Site.Data.experiences.list) }}
+
+    <section id="projects" class="pro-sec">
+      <h2>{{ .Site.Data.projects.title }}</h2>
+      <div class="proj">
+        {{ range .Site.Data.projects.list }}
+        {{ if ne .url "#" }}
+        <a class="proj-card" href="{{ .url }}" target="_blank" rel="noopener noreferrer">
+          <div class="proj-name">{{ .title }}</div>
+          <p class="proj-desc">{{ .description }}</p>
+        </a>
+        {{ else }}
+        <div class="proj-card">
+          <div class="proj-name">{{ .title }}</div>
+          <p class="proj-desc">{{ .description }}</p>
+        </div>
+        {{ end }}
+        {{ end }}
+      </div>
+    </section>
+
+    {{ partial "tl-section.html" (dict "id" "teaching" "heading" .Site.Data.teaching.title "items" .Site.Data.teaching.list) }}
+    {{ partial "tl-section.html" (dict "id" "workshops" "heading" .Site.Data.workshops.title "items" .Site.Data.workshops.list) }}
+
+    <section id="skills" class="pro-sec">
+      <h2>{{ .Site.Data.skills.title }}</h2>
+      <ul class="kw-list">
+        {{ range .Site.Data.skills.list }}
+        <li>{{ .skill }}</li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section id="hobbies" class="pro-sec">
+      <h2>{{ .Site.Data.hobbies.title }}</h2>
+      <ul class="hobby-list">
+        {{ range .Site.Data.hobbies.list }}
+        <li>{{ .hobby }}</li>
+        {{ end }}
+      </ul>
+    </section>
+
+  </div>
+</div>
+
+<footer class="ac-footer">
+  <span>{{ .Site.Params.copyright | markdownify }}</span>
+  <nav>
+    {{ range .Site.Data.social }}
+    <a href="{{ .url }}" class="social-link"><i class="{{ .icon }}"></i><span>{{ .title }}</span></a>
+    {{ end }}
+  </nav>
+</footer>
+{{ end }}

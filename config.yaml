@@ -14,15 +14,5 @@ params:
     mainTheme: null
     showAttribute: false
     singlePage: false
-  accordion:
-    - item: about_me
-      expand: true # only the first `expand: true` will take effect
-    - item: experiences
-    - item: teaching
-    - item: education
-    - item: publications
-    - item: projects
-    - item: workshops
-    - item: skills
-      panel_id: skill-panel
-    - item: hobbies
+  # Section order is now fixed in layouts/index.html (La Traza layout, no accordion):
+  # Education, About, Publications, Experience, Projects, Teaching, Workshops, Skills, Hobbies.

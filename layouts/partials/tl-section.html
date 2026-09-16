@@ -1,0 +1,21 @@
+<section id="{{ .id }}" class="pro-sec">
+  <h2>{{ .heading }}</h2>
+  <div class="tl">
+    {{ range .items }}
+    <div class="tl-item">
+      <div class="tl-when">{{ .dates }}</div>
+      <div>
+        <div class="tl-role">{{ .position }}</div>
+        <div class="tl-org">{{ .company }}</div>
+        {{ if .details }}
+        <ul class="tl-pts">
+          {{ range .details }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
